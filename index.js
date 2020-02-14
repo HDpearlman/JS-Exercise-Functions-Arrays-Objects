@@ -82,7 +82,7 @@ function makeSmartPerson(paraName) {
   let smartPerson = {
     name : paraName, 
     sum : (a,b) => a+b,
-    speak: (paraName) => `Hello, my name is ${paraName}` 
+    speak: paraName => `Hello, my name is ${paraName}` 
 
     };
     return smartPerson;
@@ -179,8 +179,8 @@ function getLastCarInfo(carArray) {
  * For example, if getCarInfoById is invoked with the inventory and the number 1,
  * it will return `This is a Lincoln Navigator`.
 */
-function getCarInfoById(carArray, carid) {
-  return `This is a`
+function getCarInfoById(/* code here */) {
+  /* code here */
 }
 
 /**
@@ -191,8 +191,8 @@ function getCarInfoById(carArray, carid) {
  *     (1) an array which is an inventory of cars like the one inside /data/inventory.js.
  * sortCarInventory returns an inventory that is sorted by car_model, ascending [A-Z].
 */
-function sortCarInventory() {
-  /*
+function sortCarInventory(/* code here */) {
+  /* code here */
 }
 
 /**
