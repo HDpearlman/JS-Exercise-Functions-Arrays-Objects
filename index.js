@@ -82,7 +82,7 @@ function makeSmartPerson(paraName) {
   let smartPerson = {
     name : paraName, 
     sum : (a,b) => a+b,
-    speak: paraName => `Hello, my name is ${paraName}` 
+    speak : () => `Hello, my name is ${paraName}` 
 
     };
     return smartPerson;
